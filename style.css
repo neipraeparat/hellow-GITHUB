@@ -1,12 +1,19 @@
 body,h1 {
     margin:0; 
-    padding:0;    
+    padding:0;
+    
 }
-main{    
+html, body{
+    height: 100%;
+    overflow: hidden;
+    background-color: #ddd;
+}
+main{
+    background-color: #fff;
     padding-left: 10px;
     width: 791px;
-    height: auto;
-    border-right-style:groove 
+    min-height: 100%;
+    border-right-style:groove; 
 
 }
 h1{
@@ -39,7 +46,7 @@ ul ul{
 ul ul li{
     padding:5px 0px;
     font-family: Helvetica;
-    font-size: 9pt;
+    font-size: 11pt;
     font-weight:normal;
     letter-spacing: 0px;
 }
