@@ -48,4 +48,6 @@ ul ul li{
     float:right;
     background-color:yellow;
     color:darkred;
+    padding-left: 10px;
+    padding-bottom: 5px;
 }
